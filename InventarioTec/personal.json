@@ -1,0 +1,194 @@
+[
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Arias_Juarez_Joel",
+            "email": "arias.joel12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Cortez_Galvan_Pablo_Alberto",
+            "email": "cortez.pablo12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Dominguez_Reyes_Julio",
+            "email": "dominguez.julio12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Felix_Garcia_Jorge_Guadalupe",
+            "email": "felix.jorge12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Ibarra_Ahumada_Cristobal",
+            "email": "ibarra.cristobal12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Lares_Ramirez_Ismael",
+            "email": "lares.ismael12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Loaeza_Moreno_Roni",
+            "email": "loaeza.roni12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Magdaleno_Palencia_Ma_Angelica",
+            "email": "magdaleno.angelica12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Mendoza_Marmolejo_Juan_Alberto",
+            "email": "mendoza.juan12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Moreno_Pizano_Jesus",
+            "email": "moreno.jesus12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Morones_Garcia_Aurelio",
+            "email": "morones.aurelio12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Munoz_Salazar_Luis_Felipe",
+            "email": "munoz.luis12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Nicolas_De_La_Rosa_Noe",
+            "email": "nicolas.noe12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Nicolas_Hernandez_Jose_Eloy_Enrique",
+            "email": "nicolas.jose12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Nicolas_Sanchez_Jose_Epifanio_Rufino",
+            "email": "nicolas.epifanio12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Ornelas_Uribe_Enrique_Marco",
+            "email": "ornelas.enrique12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Padua_Hernandez_Agustin",
+            "email": "padua.agustin12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Patino_Gonzalez_Humberto",
+            "email": "patino.humberto12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Rico_Meza_Alfonso",
+            "email": "rico.alfonso12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Rodriguez_Acevedo_Alejandro",
+            "email": "rodriguez.alejandro12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Rojas_Sanchez_Clara",
+            "email": "rojas.clara12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Romero_Cruz_Jose_Ramon",
+            "email": "romero.jose12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Sanchez_Perez_Jose_Antonio",
+            "email": "sanchez.jose12@gmail.com",
+            "password": "contra1214"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "Soto_Nieblas_Juan_Jose",
+            "email": "soto.juan12@gmail.com",
+            "password": "contra1214"
+        }
+    }
+]

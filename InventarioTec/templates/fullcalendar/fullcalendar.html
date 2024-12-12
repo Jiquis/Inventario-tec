@@ -1,0 +1,51 @@
+{% extends 'base/base.html' %}
+
+{% load static %}
+
+{% block title %}FullCalendar View{% endblock title %}
+
+
+{% block fullcalendar %}
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth',
+          headerToolbar: {
+            left: "prev, next, today",
+            center: "title",
+            right: "dayGridMonth, dayGridWeek, listWeek"
+          },
+          events: [
+            {% for obj in PrestamosR %}
+              {
+                title: "{{ obj.usuario }}",
+                start: "{{ obj.fecha_inicio | date:'Y-m-d'}}",
+                end: "{{ obj.fecha_termino | date:'Y-m-d'}}",
+                color: "#09ac89",
+                
+              },
+            {% endfor %}
+          ]
+        });
+        calendar.render();
+      });
+    </script>
+{% endblock fullcalendar %}
+
+{% block content %}
+    <style>
+      .navbar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 10; /* Asegura que la navbar esté sobre otros elementos */
+          margin: 0; /* Elimina cualquier margen accidental */
+      }
+    </style>
+<div class="container-fluid !direction !spacing mx-auto">
+    <div id='calendar'></div> 
+  </div>
+  
+{% endblock content %}

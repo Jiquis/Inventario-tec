@@ -1,0 +1,44 @@
+{% extends 'base/base.html'%}
+
+{% block title %}Lista de prestamos {% endblock title %}
+
+{% block content %}
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10; /* Asegura que la navbar esté sobre otros elementos */
+            margin: 0; /* Elimina cualquier margen accidental */
+        }
+    </style>
+    <br><br><br>
+    <h1>PRERSTAMOS REALIZADOS</h1>
+    <table class="table table-striped">
+        <thead>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Usuario</th>
+            <th>Fecha de inicio</th>
+            <th>Fecha de finalizacion</th>
+            <th></th>
+            <th>ACTIONS</th>
+            <th></th>
+        </thead>
+        <tbody>
+            {% for obj in PrestamosR %}
+                <tr>
+                    <td>{{ obj.item.nombre }}</td>
+                    <td>{{ obj.cantidad_prestada }}</td>
+                    <td>{{ obj.usuario }}</td>
+                    <td>{{ obj.fecha_inicio }}</td>
+                    <td>{{ obj.fecha_termino }}</td>
+                    <td><a href="{% url 'detalles de prestamo' obj.id %}" class="btn btn-outline-info">Detail</a></td>
+                    <td><a href="{% url 'actualizar prestamo' obj.id %}" class="btn btn-outline-warning">Update</a></td>
+                    <td><a href="" class="btn btn-outline-danger">Delete</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock content %}

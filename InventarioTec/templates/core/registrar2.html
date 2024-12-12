@@ -1,0 +1,108 @@
+{% extends 'base/base1.html'%}
+
+{% block title %}Nuevo prestamo{% endblock title %}
+
+{% block content %}
+    <style>
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10; /* Asegura que la navbar esté sobre otros elementos */
+            margin: 0; /* Elimina cualquier margen accidental */
+        }
+
+        /* Estilo global para el body */
+        body {
+            background-color: #406e9b;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Formulario de Registro */
+        #registerForm {
+            background-color: #f8f9fa; /* Fondo blanco para el formulario */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+            max-width: 600px;
+            margin: auto;
+        }
+
+        #registerForm h2 {
+            text-align: center;
+            color: #406e9b; /* Color de texto azul */
+            margin-bottom: 20px;
+        }
+
+        /* Específico para los campos de formulario en #registerForm */
+        #registerForm .form-control {
+            width: 100%; /* Asegura que los campos se ajusten bien */
+            margin-bottom: 15px; /* Espaciado entre los campos */
+        }
+
+        #registerForm button[type="submit"]:hover {
+            background-color: #365f79; /* Un tono más oscuro al pasar el cursor */
+        }
+
+        /* Estilos específicos para la barra de búsqueda en el formulario de registro */
+        #registerForm .form-control {
+            max-width: 100%;  /* Evita que el campo de búsqueda se expanda demasiado */
+            width: auto;  /* Ajusta el ancho de acuerdo al contenido */
+        }
+
+        #registerForm #searchInput {
+            max-width: 300px; /* Ajusta este valor según sea necesario */
+            width: 100%;  /* Asegura que se ajuste al tamaño de su contenedor */
+        }
+
+        #registerForm #searchButton {
+            min-width: 100px;
+            width: auto;
+        }
+
+        /* Agregar espacio alrededor de los formularios para que no se superpongan */
+        #registerFormContainer {
+            margin-top: 80px; /* Espacio suficiente para que el contenido no se superponga con la navbar */
+        }
+        form .btn-outline-warning {
+            width: 100%;
+        }
+        #registerButton {
+            width: 100%;
+        }
+        form .btn-outline-danger {
+            width: 100%;
+        }
+    </style>
+    <br><br>
+    <div class="container py-5" style="max-width: 600px; margin: auto; background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 class="text-center text-primary mb-4">Registrar Usuario</h2>
+        <form method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="id_username" class="form-label">Nombre de Usuario</label>
+                {{ form.username }}  <!-- Aquí agregamos el campo username -->
+            </div>
+            <div class="mb-3">
+                <label for="id_username" class="form-label">Correo Electrónico</label>
+                {{ form.email }}
+            </div>
+            <div class="mb-3">
+                <label for="id_password1" class="form-label">Contraseña</label>
+                {{ form.password1 }}
+            </div>
+            <div class="mb-3">
+                <label for="id_password2" class="form-label">Confirmar Contraseña</label>
+                {{ form.password2 }}
+            </div>
+            <div class="d-flex justify-content-between">
+                <a href="{% url 'prestamos' %}" class="btn btn-outline-warning">Cancelar</a>
+                <button type="submit" id="registerButton" class="btn btn-outline-success">Registrar</button>
+            </div>
+            <td><a href="{% url 'login' %}" class="btn btn-outline-danger">Login</a></td>
+        </form>
+    </div>
+{% endblock %}

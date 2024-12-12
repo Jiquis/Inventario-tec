@@ -1,0 +1,51 @@
+{% extends 'base/base1.html'%}
+
+{% block title %}Login{% endblock title %}
+
+{% block content %}
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10; /* Asegura que la navbar esté sobre otros elementos */
+            margin: 0; /* Elimina cualquier margen accidental */
+        }
+        body {
+            background-color: #406e9b;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        form .btn-outline-warning {
+            width: 100%;
+        }
+        form .btn-outline-success {
+            width: 100%;
+        }
+    </style> <br><br>
+    <div class="container py-5" style="max-width: 600px; margin: auto; background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        <h2 class="text-center text-primary mb-4">Iniciar sesion</h2>
+        {% if error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endif %}
+        <form method="post">
+            {% csrf_token %}
+            <div class="mb-3"></div>
+                <label for="id_username" class="form-label">Nombre de Usuario</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <br>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <div>
+                    <br>
+                    <a href="{% url 'registro1' %}" class="btn btn-outline-warning">Registro</a>
+                    <button type="submit" class="btn btn-outline-success">Iniciar sesion</button>
+                </div>
+            </div>
+            <br>
+           
+        </form>
+    </div>
+{% endblock %}

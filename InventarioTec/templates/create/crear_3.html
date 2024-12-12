@@ -1,0 +1,93 @@
+{% extends 'base/base.html'%}
+
+{% block title %}Nuevo inventario {% endblock title %}
+
+{% block content%}
+    <style>
+        /* Ajustar la posición del contenido debajo del navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10; /* Asegura que la navbar esté sobre otros elementos */
+            margin: 0; /* Elimina cualquier margen accidental */
+        }
+        #prestamoFormContainer {
+            margin-top: 60px; /* Espacio suficiente para que el contenido no se superponga */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        #imageGallery {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        #imageGallery img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos generales */
+        body {
+            background-color: #406e9b; /* Fondo azul */
+            font-family: Arial, sans-serif; /* Fuente moderna */
+            color: #ffffff; /* Texto blanco */
+            margin: 0; /* Elimina márgenes extra */
+        }
+
+        /* Estilo del formulario */
+        #prestamoForm {
+            background-color: #ffffff; /* Fondo blanco */
+            padding: 20px;
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+            max-width: 400px;
+            width: 100%;
+        }
+
+        #prestamoForm label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #406e9b; /* Azul para etiquetas */
+        }
+
+        #prestamoForm input,
+        #prestamoForm select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        #prestamoForm button {
+            background-color: #406e9b;
+            color: #ffffff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        #prestamoForm button:hover {
+            background-color: #2c4e6e; /* Botón más oscuro al pasar el cursor */
+        }
+    </style>
+    <div id="prestamoFormContainer"></div>
+        <form method="post" id="prestamoForm">
+            <h2 class="text-center text-primary mb-4">Agregar a inventario</h2>
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-outline-success">Crear Préstamo</button>
+        </form>
+    </div>
+{% endblock content %}

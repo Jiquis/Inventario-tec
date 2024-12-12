@@ -1,0 +1,41 @@
+{% extends 'base/base.html'%}
+
+{% block title %}Catalogo 2{% endblock title %}
+
+{% block content %}
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10; /* Asegura que la navbar esté sobre otros elementos */
+            margin: 0; /* Elimina cualquier margen accidental */
+        }
+    </style>
+    <br><br>
+    <h1>HERRAMIENTAS DE FERRETERIA</h1>
+        <table class="table table-striped">
+            <thead>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Ubicacion</th>
+                <th>Partida</th>
+                <th>ACTIONS</th>
+            </thead>
+            <tbody>
+                {% for obj in MaterialFerreteria %}
+                    <tr>
+                        <td>{{ obj.id }}</td>
+                        <td>{{ obj.nombre }}</td>
+                        <td>{{ obj.cantidad }}</td>
+                        <td>{{ obj.ubicacion }}</td>
+                        <td>{{ obj.partida }}</td>
+                        <td><a href="{% url 'actualizar inventario 2' obj.id %}"" class="btn btn-outline-warning">Update</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <td><a href="{% url 'crear inventario 2' %}" class="btn btn-outline-info" style="color: green;">Nuevo material</a></td>
+{% endblock content %}

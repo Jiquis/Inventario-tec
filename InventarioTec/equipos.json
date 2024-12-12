@@ -1,0 +1,767 @@
+[
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Martillo",
+            "partida": "21101",
+            "cantidad": 10,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Destornillador",
+            "partida": "21101",
+            "cantidad": 15,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Llave inglesa",
+            "partida": "21401",
+            "cantidad": 5,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Cinta métrica",
+            "partida": "21401",
+            "cantidad": 20,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Nivel de burbuja",
+            "partida": "21401",
+            "cantidad": 8,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Tornillos",
+            "partida": "21401",
+            "cantidad": 200,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Clavos",
+            "partida": "21401",
+            "cantidad": 150,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Cinta adhesiva",
+            "partida": "21401",
+            "cantidad": 30,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Sellador",
+            "partida": "21401",
+            "cantidad": 12,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Pegamento",
+            "partida": "21401",
+            "cantidad": 20,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Escobas",
+            "partida": "21601",
+            "cantidad": 50,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Trapeadores",
+            "partida": "21601",
+            "cantidad": 30,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Limpiadores multiusos",
+            "partida": "21601",
+            "cantidad": 20,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Desinfectantes",
+            "partida": "21601",
+            "cantidad": 15,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Paños de limpieza",
+            "partida": "21601",
+            "cantidad": 40,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Bomba de agua",
+            "partida": "24401",
+            "cantidad": 5,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Cortadora de césped",
+            "partida": "24401",
+            "cantidad": 3,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Compresor de aire",
+            "partida": "24401",
+            "cantidad": 2,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Carretilla",
+            "partida": "24401",
+            "cantidad": 4,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Rodillo para pintura",
+            "partida": "24401",
+            "cantidad": 6,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Pala de mano",
+            "partida": "24401",
+            "cantidad": 8,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Machete",
+            "partida": "24401",
+            "cantidad": 5,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Regadera",
+            "partida": "24401",
+            "cantidad": 10,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Cuchilla de podar",
+            "partida": "24401",
+            "cantidad": 7,
+            "ubicacion": "Unidad Otay"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Guantes de jardinería",
+            "partida": "24401",
+            "cantidad": 15,
+            "ubicacion": "Unidad Tomas Aquino"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Destornillador Phillips",
+            "cantidad": 20,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "21101"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Martillo",
+            "cantidad": 15,
+            "ubicacion": "Unidad Otay",
+            "partida": "21201"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Sierra de mano",
+            "cantidad": 10,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "21301"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Llave ajustable",
+            "cantidad": 8,
+            "ubicacion": "Unidad Otay",
+            "partida": "21401"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Cincel",
+            "cantidad": 12,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "21501"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Nivel",
+            "cantidad": 5,
+            "ubicacion": "Unidad Otay",
+            "partida": "21502"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Soga de jardín",
+            "cantidad": 7,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "21601"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Bomba de agua portátil",
+            "cantidad": 3,
+            "ubicacion": "Unidad Otay",
+            "partida": "22103"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Escoba de pasto",
+            "cantidad": 6,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "22104"
+        }
+    },
+    {
+        "model": "core.herramientamanual",
+        "fields": {
+            "nombre": "Carretilla",
+            "cantidad": 2,
+            "ubicacion": "Unidad Otay",
+            "partida": "22201"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Tornillos de acero",
+            "cantidad": 50,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "31101"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Clavos galvanizados",
+            "cantidad": 30,
+            "ubicacion": "Unidad Otay",
+            "partida": "31201"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Tuercas",
+            "cantidad": 40,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "31301"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Arandelas",
+            "cantidad": 25,
+            "ubicacion": "Unidad Otay",
+            "partida": "31401"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Pernos",
+            "cantidad": 20,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "31501"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Soldadura",
+            "cantidad": 15,
+            "ubicacion": "Unidad Otay",
+            "partida": "31601"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Cinta métrica",
+            "cantidad": 10,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "31701"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Llave inglesa",
+            "cantidad": 5,
+            "ubicacion": "Unidad Otay",
+            "partida": "31801"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Cuerda",
+            "cantidad": 7,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "31901"
+        }
+    },
+    {
+        "model": "core.materialferreteria",
+        "fields": {
+            "nombre": "Fijaciones para drywall",
+            "cantidad": 25,
+            "ubicacion": "Unidad Otay",
+            "partida": "32001"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Detergente concentrado",
+            "cantidad": 25,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "41101"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Escoba de fibras sintéticas",
+            "cantidad": 15,
+            "ubicacion": "Unidad Otay",
+            "partida": "41201"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Trapeador de algodón",
+            "cantidad": 20,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "41301"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Paños de microfibra",
+            "cantidad": 30,
+            "ubicacion": "Unidad Otay",
+            "partida": "41401"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Líquido sanitizante",
+            "cantidad": 10,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "41501"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Cubetas",
+            "cantidad": 25,
+            "ubicacion": "Unidad Otay",
+            "partida": "41601"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Cepillos de cerdas duras",
+            "cantidad": 15,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "41701"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Gel desinfectante para manos",
+            "cantidad": 20,
+            "ubicacion": "Unidad Otay",
+            "partida": "41801"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Toallas de papel",
+            "cantidad": 40,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "41901"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Desinfectante para pisos",
+            "cantidad": 30,
+            "ubicacion": "Unidad Otay",
+            "partida": "42001"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Bomba de agua",
+            "cantidad": 8,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "52101"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Cortadora de césped",
+            "cantidad": 5,
+            "ubicacion": "Unidad Otay",
+            "partida": "52201"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Generador eléctrico",
+            "cantidad": 2,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "52301"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Compresor de aire",
+            "cantidad": 4,
+            "ubicacion": "Unidad Otay",
+            "partida": "52401"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Soplador de hojas",
+            "cantidad": 3,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "52501"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Aspiradora industrial",
+            "cantidad": 2,
+            "ubicacion": "Unidad Otay",
+            "partida": "52601"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Hidrolavadora",
+            "cantidad": 6,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "52701"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Sierra eléctrica",
+            "cantidad": 3,
+            "ubicacion": "Unidad Otay",
+            "partida": "52801"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Tanque de gasóleo",
+            "cantidad": 4,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "52901"
+        }
+    },
+    {
+        "model": "core.equipomantenimiento",
+        "fields": {
+            "nombre": "Taladro percutor",
+            "cantidad": 5,
+            "ubicacion": "Unidad Otay",
+            "partida": "53001"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Pala de mano",
+            "cantidad": 10,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "62101"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Cortadora de césped",
+            "cantidad": 5,
+            "ubicacion": "Unidad Otay",
+            "partida": "62201"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Rastrillo",
+            "cantidad": 12,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "62301"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Azada",
+            "cantidad": 7,
+            "ubicacion": "Unidad Otay",
+            "partida": "62401"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Manguera de riego",
+            "cantidad": 8,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "62501"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Tijeras de podar",
+            "cantidad": 6,
+            "ubicacion": "Unidad Otay",
+            "partida": "62601"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Bomba de aspersión",
+            "cantidad": 4,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "62701"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Escarificador",
+            "cantidad": 3,
+            "ubicacion": "Unidad Otay",
+            "partida": "62801"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Alicate para poda",
+            "cantidad": 5,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "62901"
+        }
+    },
+    {
+        "model": "core.equipojardineria",
+        "fields": {
+            "nombre": "Tierra para macetas",
+            "cantidad": 20,
+            "ubicacion": "Unidad Otay",
+            "partida": "63001"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Escoba",
+            "cantidad": 15,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "33101"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Trapeador",
+            "cantidad": 8,
+            "ubicacion": "Unidad Otay",
+            "partida": "33201"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Piso limpio",
+            "cantidad": 20,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "33301"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Detergente multiusos",
+            "cantidad": 25,
+            "ubicacion": "Unidad Otay",
+            "partida": "33401"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Jabón líquido",
+            "cantidad": 10,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "33501"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Estropajo",
+            "cantidad": 30,
+            "ubicacion": "Unidad Otay",
+            "partida": "33601"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Trapo",
+            "cantidad": 25,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "33701"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Sacos de basura",
+            "cantidad": 50,
+            "ubicacion": "Unidad Otay",
+            "partida": "33801"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Cepillo de baño",
+            "cantidad": 5,
+            "ubicacion": "Unidad Tomas Aquino",
+            "partida": "33901"
+        }
+    },
+    {
+        "model": "core.materiallimpieza",
+        "fields": {
+            "nombre": "Paño seco",
+            "cantidad": 15,
+            "ubicacion": "Unidad Otay",
+            "partida": "34001"
+        }
+    }
+]
